@@ -11,11 +11,11 @@ import os
 import sys
 from pathlib import Path
 
-# Add the project directory to the Python path
+# Add the project directory to the Python pathpython "travelguide\wsgi.py"
 BASE_DIR = Path(__file__).resolve().parent.parent
 sys.path.append(str(BASE_DIR))
 print("Python path:", sys.path)  # Debug
-print("BASE_DIR:", BASE_DIR)    # Debug
+print("BASE_DIR:", BASE_DIR)    
 
 from django.core.wsgi import get_wsgi_application
 
