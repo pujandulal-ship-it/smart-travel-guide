@@ -1,0 +1,55 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Django
+*.pyc
+__pycache__/
+*.py[cod]
+db.sqlite3
+media/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Secrets
+.env
+*.key
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# Django Migrations (if you don't want to track them)
+*/migrations/*
+
+# Node.js (if you add frontend)
+node_modules/
+npm-debug.log*
+
+# Python
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.pytest_cache/
+
+# Environment-specific
+local_settings.py
+settings/local.py
+settings/production.py
